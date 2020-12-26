@@ -4,19 +4,22 @@ body {
 
 li {
     list-style: none;
-    /* Gantikan property float ke left */
     float: left;
+    /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+    padding: 33px 20px;
 }
 
 .header {
-    background-color: #f7f2b4;
+    background-color: #26d0c9;
+    color: #fff;
     height: 90px;
 }
 
-/* Gantikan font-size milik header-logo ke 36px, dan property float ke left */
 .header-logo {
-    font-size: 36px;
     float: left;
+    font-size: 36px;
+    /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+    padding: 20px 40px;
 }
 
 .main {
